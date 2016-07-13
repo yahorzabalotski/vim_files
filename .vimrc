@@ -37,5 +37,6 @@ set relativenumber
 set number
 set colorcolumn=80
 
-"tabs map
+"key maps
 map <TAB> :bn<CR>
+nnoremap <F3> :set hlsearch!<CR>

@@ -39,4 +39,4 @@ set colorcolumn=80
 
 "key maps
 map <TAB> :bn<CR>
-nnoremap <F3> :set hlsearch!<CR>
+nnoremap <F3> :let @/ = ""<CR>

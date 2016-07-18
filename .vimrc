@@ -36,6 +36,8 @@ filetype plugin indent on
 set relativenumber
 set number
 set colorcolumn=80
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set list
 
 "key maps
 map <TAB> :bn<CR>

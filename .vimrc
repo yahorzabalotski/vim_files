@@ -2,6 +2,7 @@
 execute pathogen#infect()
 
 "solarized
+"syntax enable
 set background=dark
 colorschem solarized
 
@@ -42,3 +43,9 @@ set list
 "key maps
 map <TAB> :bn<CR>
 nnoremap <F3> :let @/ = ""<CR>
+noremap <C-l> <C-w>l
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-n> gt
+noremap <C-m> gT
